@@ -37,10 +37,10 @@
 </template>
 <script setup lang="ts">
 import { useHomeStore } from '~/store/home';
-definePageMeta({
-  middleware: ["auth-control"]
+// definePageMeta({
+//   middleware: ["auth-control"]
   
-});
+// });
 const homeStore = useHomeStore();
 
 const { data:home } = await useFetch('/api/home');

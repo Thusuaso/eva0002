@@ -32,9 +32,9 @@
     import { useModelStore } from '~/store/model';
     import { useOrdersStore } from '~/store/orders';
     import {useCardsList} from "~/store/cards";
-    definePageMeta({
-        middleware:['auth-control']
-    });
+    // definePageMeta({
+    //     middleware:['auth-control']
+    // });
     const cardStore = useCardsList();
 
     const { data:production } = await useFetch('/api/orders/list/production',{

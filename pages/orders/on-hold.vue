@@ -32,9 +32,9 @@
 <script setup lang="ts">
     import { useModelStore } from '~/store/model';
     import { useOrdersStore } from '~/store/orders';
-    definePageMeta({
-        middleware:['auth-control']
-    });
+    // definePageMeta({
+    //     middleware:['auth-control']
+    // });
     const { data:onHold } = await useFetch('/api/orders/list/on-hold',{
         method:'GET'
     });
