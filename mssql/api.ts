@@ -1,9 +1,9 @@
 import mssql from 'mssql';
 let pool = {
-    user: process.env.DB_USER,
-    password: process.env.DB_PWD,
-    database: process.env.DB_NAME,
-    server: process.env.DB_SERVER,
+    user: 'userEC52E044DE',
+    password: 'POlb33D8PQlo68S',
+    database: 'Yeni_Mekmar_DB',
+    server: '94.73.151.2',
     pool: {
       max: 10,
       min: 0,
