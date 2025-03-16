@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.18.7",
+    "@primevue/themes": "^4.1.1",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap5": "^1.1.9",
+    "chart.js": "^4.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mssql": "^11.0.1",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.4",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.1.1",
+    "sass": "^1.80.4",
+    "sass-loader": "^16.0.2",
+    "tailwindcss-primeui": "^0.3.4",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.5.5",
+    "@primevue/nuxt-module": "^4.1.1",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bootstrap": "^5.2.10",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mssql": "^9.1.5",
+    "@types/nodemailer": "^6.4.16",
+    "autoprefixer": "^10.4.20",
+    "nodemailer": "^6.9.16",
+    "nuxt-nodemailer": "^1.1.2",
+    "nuxt-pdfmake": "^0.0.39",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}
